@@ -41,26 +41,6 @@
     "./Text.svelte": {
       "types": "./dist/Input/Text.svelte.d.ts",
       "svelte": "./dist/Input/Text.svelte"
-    },
-    "./Textarea.svelte": {
-      "types": "./dist/Input/Textarea.svelte.d.ts",
-      "svelte": "./dist/Input/Textarea.svelte"
-    },
-    "./Option.svelte": {
-      "types": "./dist/Input/Option.svelte.d.ts",
-      "svelte": "./dist/Input/Option.svelte"
-    },
-    "./OptionWithSearch.svelte": {
-      "types": "./dist/Input/OptionWithSearch.svelte.d.ts",
-      "svelte": "./dist/Input/OptOptionWithSearchion.svelte"
-    },
-    "./Checkbox.svelte": {
-      "types": "./dist/Input/Checkbox.svelte.d.ts",
-      "svelte": "./dist/Input/Checkbox.svelte"
-    },
-    "./Switch.svelte": {
-      "types": "./dist/Input/Switch.svelte.d.ts",
-      "svelte": "./dist/Input/Switch.svelte"
     }
   },
   "files": [
