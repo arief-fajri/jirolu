@@ -11,7 +11,15 @@
     "sveltekit",
     "input",
     "text",
-    "input-text"
+    "input-text",
+    "textarea",
+    "select",
+    "option",
+    "search",
+    "select-option",
+    "search-option",
+    "slider",
+    "checkbox"
   ],
   "license": "MIT",
   "repository": {
@@ -33,6 +41,26 @@
     "./Text.svelte": {
       "types": "./dist/Input/Text.svelte.d.ts",
       "svelte": "./dist/Input/Text.svelte"
+    },
+    "./Textarea.svelte": {
+      "types": "./dist/Input/Textarea.svelte.d.ts",
+      "svelte": "./dist/Input/Textarea.svelte"
+    },
+    "./Option.svelte": {
+      "types": "./dist/Input/Option.svelte.d.ts",
+      "svelte": "./dist/Input/Option.svelte"
+    },
+    "./OptionWithSearch.svelte": {
+      "types": "./dist/Input/OptionWithSearch.svelte.d.ts",
+      "svelte": "./dist/Input/OptOptionWithSearchion.svelte"
+    },
+    "./Checkbox.svelte": {
+      "types": "./dist/Input/Checkbox.svelte.d.ts",
+      "svelte": "./dist/Input/Checkbox.svelte"
+    },
+    "./Slider.svelte": {
+      "types": "./dist/Input/Slider.svelte.d.ts",
+      "svelte": "./dist/Input/Slider.svelte"
     }
   },
   "files": [
@@ -44,24 +72,25 @@
     "svelte": "^4.0.0"
   },
   "devDependencies": {
+    "@iconify/svelte": "^3.1.4",
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.20.4",
     "@sveltejs/package": "^2.0.0",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "publint": "^0.1.9",
-    "svelte": "^4.0.5",
-    "tailwindcss": "^3.3.5",
-    "tslib": "^2.4.1",
-    "typescript": "^5.0.0",
-    "vite": "^4.4.2",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte": "^2.30.0",
+    "postcss": "^8.4.31",
     "postcss-load-config": "^4.0.1",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.10.1",
-    "svelte-check": "^3.4.3"
+    "publint": "^0.1.9",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.3",
+    "tailwindcss": "^3.3.5",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
   },
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -3,6 +3,195 @@
 This is a collection of components I use on a regular basis
 packaged up for use.
 
+## Components
+
+<table>
+  <tr>
+  <th align="left">Name</th>
+  <th align="left">Props</th>
+  <th align="left">Event</th>
+  <th align="left">Supported Slot</th>
+  </tr>
+<tr>
+<td vAlign="top">
+
+```InputText```
+
+</td>
+<td vAlign="top">
+
+- type ( *string* )
+- placeholder ( *string* )
+- value ( *string* )
+- customClass ( *string* )
+- disabled ( *bool* )
+- isError ( *bool* )
+
+</td>
+<td vAlign="top">
+
+```
+on:input
+```
+
+</td>
+<td vAlign="top">
+
+- ```left-area```
+- ```right-area```
+
+</td>
+</tr>
+<tr>
+<td vAlign="top">
+
+```InputTextarea```
+
+</td>
+<td vAlign="top">
+
+- rows ( *int* )
+- placeholder ( *string* )
+- value ( *string* )
+- disabled ( *bool* )
+- isError ( *bool* )
+
+</td>
+<td vAlign="top">
+
+```
+on:input
+```
+
+</td>
+<td vAlign="top">
+
+- ```left-area```
+- ```right-area```
+
+</td>
+</tr>
+<tr>
+<td vAlign="top">
+
+```InputOption```
+
+</td>
+<td vAlign="top">
+
+- selected ( *string* )
+- placeholder ( *string* )
+- items ( *array* )
+- disabled ( *bool* )
+- isError ( *bool* )
+- emptyText ( *string*)
+
+</td>
+<td vAlign="top">
+
+```
+on:select
+```
+
+</td>
+<td vAlign="top">
+
+- ```left-area```
+
+</td>
+</tr>
+<tr>
+<td vAlign="top">
+
+```InputOptionWithSearch```
+
+</td>
+<td vAlign="top">
+
+- selected ( *string* )
+- placeholder ( *string* )
+- items ( *array* )
+- disabled ( *bool* )
+- isError ( *bool* )
+- emptyText ( *string*)
+
+</td>
+<td vAlign="top">
+
+```
+on:select
+```
+
+</td>
+<td vAlign="top">
+
+- ```left-area```
+
+</td>
+</tr>
+<tr>
+<td vAlign="top">
+
+```InputCheckbox```
+
+</td>
+<td vAlign="top">
+
+- checked ( *bool* )
+- disabled ( *bool* )
+- activeColor ( *string* )
+- checkmarkColor ( *string* )
+- checkmarkBorderColor ( *string* )
+
+</td>
+<td vAlign="top">
+
+```
+on:change
+```
+
+</td>
+<td vAlign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td vAlign="top">
+
+```InputSlider```
+
+</td>
+<td vAlign="top">
+
+- checked ( *bool* )
+- disabled ( *bool* )
+- needValidate ( *bool* )
+- activeColor ( *string* )
+- bgSlider ( *string* )
+- sliderColor ( *string* )
+
+</td>
+<td vAlign="top">
+
+```
+on:change
+```
+
+```
+on:click
+```
+
+</td>
+<td vAlign="top">
+
+No
+
+</td>
+</tr>
+</table>
+
 ## Use it
 
 ```bash
