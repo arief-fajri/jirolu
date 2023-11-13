@@ -2,7 +2,6 @@
 	import { slide } from 'svelte/transition';
 	import { createEventDispatcher } from 'svelte';
 
-	import Icon from '@iconify/svelte';
 	import { clickOutside } from '../helper/click-outside';
 	import { foundItem } from '../helper/index';
 
@@ -43,8 +42,18 @@
 				<p class="opacity-40">{placeholder}</p>
 			{/if}
 		</div>
-		<div class="text-2xl transition-all duration-300" class:rotate-180={open}>
-			<Icon icon="eva:chevron-down-fill" />
+		<div class="transition-all duration-300" class:rotate-180={open}>
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+				><g id="evaChevronDownFill0"
+					><g id="evaChevronDownFill1"
+						><path
+							id="evaChevronDownFill2"
+							fill="currentColor"
+							d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28Z"
+						/></g
+					></g
+				></svg
+			>
 		</div>
 	</button>
 	{#if open}

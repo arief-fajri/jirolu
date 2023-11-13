@@ -2,7 +2,6 @@
 	import { slide } from 'svelte/transition';
 	import { createEventDispatcher } from 'svelte';
 
-	import Icon from '@iconify/svelte';
 	import { clickOutside } from '../helper/click-outside';
 	import { foundItem } from '../helper/index';
 
@@ -68,8 +67,20 @@
 						dispatch('select', selected);
 					}}
 				>
-					<div class="text-2xl" class:rotate-180={open}>
-						<Icon icon="eva:close-circle-outline" />
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+							><g id="evaCloseCircleOutline0"
+								><g id="evaCloseCircleOutline1"
+									><g id="evaCloseCircleOutline2" fill="currentColor"
+										><path
+											d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8Z"
+										/><path
+											d="M14.71 9.29a1 1 0 0 0-1.42 0L12 10.59l-1.29-1.3a1 1 0 0 0-1.42 1.42l1.3 1.29l-1.3 1.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l1.29-1.3l1.29 1.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42L13.41 12l1.3-1.29a1 1 0 0 0 0-1.42Z"
+										/></g
+									></g
+								></g
+							></svg
+						>
 					</div>
 				</button>
 			{/if}
@@ -83,7 +94,17 @@
 			}}
 		>
 			<div class="text-2xl transition-all duration-300" class:rotate-180={open}>
-				<Icon icon="eva:chevron-down-fill" />
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+					><g id="evaChevronDownFill0"
+						><g id="evaChevronDownFill1"
+							><path
+								id="evaChevronDownFill2"
+								fill="currentColor"
+								d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28Z"
+							/></g
+						></g
+					></svg
+				>
 			</div>
 		</button>
 	</div>
