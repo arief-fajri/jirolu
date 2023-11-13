@@ -53,6 +53,14 @@
     "./Switch.svelte": {
       "types": "./dist/Input/Switch.svelte.d.ts",
       "svelte": "./dist/Input/Switch.svelte"
+    },
+    "./Option.svelte": {
+      "types": "./dist/Input/Option.svelte.d.ts",
+      "svelte": "./dist/Input/Option.svelte"
+    },
+    "./OptionWithSearch.svelte": {
+      "types": "./dist/Input/OptionWithSearch.svelte.d.ts",
+      "svelte": "./dist/Input/OptionWithSearch.svelte"
     }
   },
   "files": [
