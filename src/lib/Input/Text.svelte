@@ -7,7 +7,6 @@
 	export let disabled;
 	export let isError;
 	export let customClass = '';
-	export let direct = false;
 
 	let localType = 'text';
 	let firstLoad;
@@ -48,13 +47,7 @@
 				newValue = _value;
 			}
 
-			if (direct) {
-				dispatch('input', newValue);
-			} else {
-				if (newValue !== value) {
-					dispatch('input', newValue);
-				}
-			}
+			dispatch('input', newValue);
 		}}
 		on:keydown={(e) => {
 			const { key } = e;
