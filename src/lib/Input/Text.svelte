@@ -3,7 +3,7 @@
 
 	export let type = 'text';
 	export let value = '';
-	export let placeholder = '';
+	export let placeholder = 'Write something...';
 	export let disabled;
 	export let isError;
 	export let customClass = '';
