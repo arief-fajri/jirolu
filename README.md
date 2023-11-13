@@ -30,9 +30,7 @@ packaged up for use.
 </td>
 <td vAlign="top">
 
-```
-on:input
-```
+```on:input```
 
 </td>
 <td vAlign="top">
@@ -59,9 +57,7 @@ on:input
 </td>
 <td vAlign="top">
 
-```
-on:input
-```
+```on:input```
 
 </td>
 <td vAlign="top">
@@ -89,9 +85,7 @@ on:input
 </td>
 <td vAlign="top">
 
-```
-on:select
-```
+```on:select```
 
 </td>
 <td vAlign="top">
@@ -118,9 +112,7 @@ on:select
 </td>
 <td vAlign="top">
 
-```
-on:select
-```
+```on:select```
 
 </td>
 <td vAlign="top">
@@ -146,9 +138,7 @@ on:select
 </td>
 <td vAlign="top">
 
-```
-on:change
-```
+```on:change```
 
 </td>
 <td vAlign="top">
@@ -175,13 +165,9 @@ No
 </td>
 <td vAlign="top">
 
-```
-on:change
-```
+```on:change```
 
-```
-on:click
-```
+```on:click```
 
 </td>
 <td vAlign="top">
