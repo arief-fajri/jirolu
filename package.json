@@ -6,6 +6,7 @@
     "email": "arief.fajri191@gmail.com"
   },
   "description": "This is a collection of components I use on a regular basis packaged up for use.",
+  "main": "dist/index.js",
   "keywords": [
     "svelte",
     "sveltekit",
