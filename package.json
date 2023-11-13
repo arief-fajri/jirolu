@@ -58,9 +58,9 @@
       "types": "./dist/Input/Checkbox.svelte.d.ts",
       "svelte": "./dist/Input/Checkbox.svelte"
     },
-    "./Slider.svelte": {
-      "types": "./dist/Input/Slider.svelte.d.ts",
-      "svelte": "./dist/Input/Slider.svelte"
+    "./Switch.svelte": {
+      "types": "./dist/Input/Switch.svelte.d.ts",
+      "svelte": "./dist/Input/Switch.svelte"
     }
   },
   "files": [

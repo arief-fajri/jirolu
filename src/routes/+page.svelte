@@ -2,7 +2,7 @@
 	import Checkbox from '$lib/Input/Checkbox.svelte';
 	import Option from '$lib/Input/Option.svelte';
 	import OptionWithSearch from '$lib/Input/OptionWithSearch.svelte';
-	import Slider from '$lib/Input/Slider.svelte';
+	import Switch from '$lib/Input/Switch.svelte';
 	import Text from '$lib/Input/Text.svelte';
 	import Textarea from '$lib/Input/Textarea.svelte';
 </script>
@@ -33,6 +33,6 @@
 	</div>
 
 	<div class="w-[360px] mb-4">
-		<Slider />
+		<Switch />
 	</div>
 </div>

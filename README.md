@@ -15,7 +15,7 @@ packaged up for use.
 <tr>
 <td vAlign="top">
 
-```InputText```
+```Text```
 
 </td>
 <td vAlign="top">
@@ -43,7 +43,7 @@ packaged up for use.
 <tr>
 <td vAlign="top">
 
-```InputTextarea```
+```Textarea```
 
 </td>
 <td vAlign="top">
@@ -70,7 +70,7 @@ packaged up for use.
 <tr>
 <td vAlign="top">
 
-```InputOption```
+```Option```
 
 </td>
 <td vAlign="top">
@@ -97,7 +97,7 @@ packaged up for use.
 <tr>
 <td vAlign="top">
 
-```InputOptionWithSearch```
+```OptionWithSearch```
 
 </td>
 <td vAlign="top">
@@ -124,7 +124,7 @@ packaged up for use.
 <tr>
 <td vAlign="top">
 
-```InputCheckbox```
+```Checkbox```
 
 </td>
 <td vAlign="top">
@@ -150,7 +150,7 @@ No
 <tr>
 <td vAlign="top">
 
-```InputSlider```
+```Switch```
 
 </td>
 <td vAlign="top">
