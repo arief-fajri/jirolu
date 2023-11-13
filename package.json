@@ -41,6 +41,10 @@
     "./Text.svelte": {
       "types": "./dist/Input/Text.svelte.d.ts",
       "svelte": "./dist/Input/Text.svelte"
+    },
+    "./Textarea.svelte": {
+      "types": "./dist/Input/Textarea.svelte.d.ts",
+      "svelte": "./dist/Input/Textarea.svelte"
     }
   },
   "files": [
