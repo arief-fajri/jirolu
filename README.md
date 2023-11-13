@@ -26,6 +26,19 @@ Use like a normal Svelte component:
 />
 ```
 
+## Configuration
+
+This components uses tailwindCSS styles. you need to update the tailwind.config.cjs file from your root project folder to let the Tailwind CSS compiler know where to look for the utility classes.
+
+``` js
+...
+content: [
+  './src/**/*.{html,js,svelte,ts}', 
+  './node_modules/jirolu-svelte/**/*.{html,js,svelte,ts}'
+],
+...
+```
+
 ## Packaging for NPM
 
 Arif, this is here for you to remember how to do this 🙃
