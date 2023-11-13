@@ -23,6 +23,9 @@ Use like a normal Svelte component:
   customClass=""
   disabled={false}
   isError={false}
+  on:input={(e)=>{
+    console.log(e.detail)
+  }}
 />
 ```
 
