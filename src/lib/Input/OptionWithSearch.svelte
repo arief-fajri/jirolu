@@ -2,8 +2,8 @@
 	import { slide } from 'svelte/transition';
 	import { createEventDispatcher } from 'svelte';
 
-	import { clickOutside } from '../helper/click-outside';
-	import { foundItem } from '../helper/index';
+	import { clickOutside } from '../helper/click-outside.js';
+	import { foundItem } from '../helper/index.js';
 
 	export let selected = '';
 	export let placeholder = 'Find option...';
