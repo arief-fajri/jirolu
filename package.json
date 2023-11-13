@@ -1,6 +1,6 @@
 {
   "name": "jirolu-svelte",
-  "version": "0.0.7",
+  "version": "0.0.6",
   "author": {
     "name": "Arif Fajri",
     "email": "arief.fajri191@gmail.com"
@@ -37,6 +37,30 @@
     ".": {
       "types": "./dist/index.d.ts",
       "svelte": "./dist/index.js"
+    },
+    "./Text.svelte": {
+      "types": "./dist/Input/Text.svelte.d.ts",
+      "svelte": "./dist/Input/Text.svelte"
+    },
+    "./Textarea.svelte": {
+      "types": "./dist/Input/Textarea.svelte.d.ts",
+      "svelte": "./dist/Input/Textarea.svelte"
+    },
+    "./Option.svelte": {
+      "types": "./dist/Input/Option.svelte.d.ts",
+      "svelte": "./dist/Input/Option.svelte"
+    },
+    "./OptionWithSearch.svelte": {
+      "types": "./dist/Input/OptionWithSearch.svelte.d.ts",
+      "svelte": "./dist/Input/OptOptionWithSearchion.svelte"
+    },
+    "./Checkbox.svelte": {
+      "types": "./dist/Input/Checkbox.svelte.d.ts",
+      "svelte": "./dist/Input/Checkbox.svelte"
+    },
+    "./Switch.svelte": {
+      "types": "./dist/Input/Switch.svelte.d.ts",
+      "svelte": "./dist/Input/Switch.svelte"
     }
   },
   "files": [
